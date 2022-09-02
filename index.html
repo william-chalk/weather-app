@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Tracker</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-center">
+      <!-- title -->
+      <h1>Weather Dashboard</h1>
+    </header>
+    <div class="d-inline-flex flex-column mt-1 p-3 searchSec float-left">
+      <!-- Search bar -->
+      <h2>Search for a City:</h2>
+      <div class="borderSec pb-4">
+        <div class="d-flex pt-3">
+          <input
+            id="searchCity"
+            class="mb-3 p-2"
+            type="text"
+            placeholder="Search for a City"
+          />
+        </div>
+        <button class="searchBtn">Search</button>
+      </div>
+      <div class="d-inline-flex flex-wrap">
+        <!-- search list -->
+        <ul id="#recentSearch" class="d-inline-flex flex-column searchList">
+          <button class="listButton">Test</button>
+          <button class="listButton">Test</button>
+          <button class="listButton">Test</button>
+          <button class="listButton">Test</button>
+        </ul>
+      </div>
+    </div>
+    <div class="d-inline-flex jumbotron weatherDisplay">
+      <!-- Display weather and cards -->
+      <div id="weatherDisplayPanel" class="d-inline-flex flex-column">
+        <h1 id="#city-date">City and Date</h1>
+        <p id="#temp">Temp</p>
+        <p id="#wind">Wind</p>
+        <p id="#humid">Humidity</p>
+        <p id="#uv-index">UV Index</p>
+      </div>
+    </div>
+    <div class="d-flex weatherHeader">
+      <h2>5 Day Forcast:</h2>
+    </div>
+    <div class="card-deck d-inline-flex flex-row cardStack">
+      <div class="card flex-row">
+        <div id="weatherCard" class="card-body d-flex flex-column weatherCards">
+          <h3 id="#card-date" class="card-title">Date</h3>
+          <p id="#card-temp" class="card-text">Temp</p>
+          <p id="#card-wind" class="card-text">Wind</p>
+          <p id="#card-humid" class="card-text">Humidity</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

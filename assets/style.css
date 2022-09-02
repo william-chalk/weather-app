@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    345deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(12, 0, 48, 1) 22%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+header h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.borderSec {
+  border-bottom: 2px solid black;
+}
+.searchSec {
+  position: relative;
+}
+
+.searchSec h2 {
+  font-weight: 600;
+}
+
+.searchBtn {
+  padding-left: 11vh;
+  padding-right: 11vh;
+  background-color: #063d78;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.searchBtn:hover {
+  background-color: #3e8de3;
+}
+
+.searchList {
+  margin: 3vh;
+}
+
+.searchList button {
+  margin-bottom: 10%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.listButton {
+  background-color: darkgray;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.listButton:hover {
+  background-color: gray;
+}
+
+.weatherDisplay {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 50%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    345deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(107, 160, 218, 1) 39%,
+    rgba(8, 43, 127, 1) 100%,
+    rgba(9, 57, 103, 1) 100%,
+    rgba(70, 76, 156, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.weatherDisplay p {
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+.weatherHeader {
+  margin-left: 30%;
+}
+
+.weatherHeader h2 {
+  text-shadow: 5px 10px 20px black;
+}
+
+.cardStack {
+  margin-left: 26%;
+}
+
+.weatherCards {
+  padding-left: 5px;
+  padding-right: 100px;
+  margin: auto;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    345deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(107, 160, 218, 1) 39%,
+    rgba(8, 43, 127, 1) 100%,
+    rgba(9, 57, 103, 1) 100%,
+    rgba(70, 76, 156, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  border: 2px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.weatherCards h3,
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
